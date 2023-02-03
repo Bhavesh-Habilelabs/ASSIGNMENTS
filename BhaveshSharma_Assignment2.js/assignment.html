@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form onsubmit="getInfo(event)">
+        <label for="fullname">Enter Your Name</label>
+        <input type="text" name="fullname" id="" required>
+        <br><br>
+        <label for="" name="mobile">Enter Your Mobile No</label>
+        <input type="number" name="mobile" id="">
+        <br><br>
+        <label for="">pick your fav color</label>
+        <input type="color" name="color" id="">
+        <br><br>
+        <label for="select your fav music genre"></label>
+        <select name="music" id="">
+            <option value="empty">select your choice</option>
+            <option value="pop music">hip hop</option>
+            <option value="soothing">romantic</option>
+            <option value="old is gold">rock</option>
+        </select>
+        <br><br>
+        <label for="">select your gender</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">female</label>
+        <br><br>
+        <label for="">type your messaage</label>
+        <br>
+        <textarea name="textarea" id="" rows="8" cols="50"></textarea>
+        <br><br>
+        <label for="">your known programming languages</label>
+        <input type="checkbox" name="programming1" id="" value="javascript">
+        <label for="">JavaScript</label>
+        <input type="checkbox" name="programming2" id="" value="python">
+        <label for="">Python</label>
+        <input type="checkbox" name="programming3" id="" value="java">
+        <label for="">Java</label>
+        <br><br>
+        <label for="">price range</label>
+        <input type="range" name="range" id="" min="1000" max="2000" value="1500">
+        <button type="submit">submit</button>
+    </form>
+    <script src="./assign.js"></script>
+</body>
+</html>
